@@ -1,6 +1,10 @@
-body{
+.ui-body-c, .ui-overlay-c {
 	background:#5a5959 url(../images/menuBg.gif) top left repeat-y;
 	-webkit-text-size-adjust:none !important;
+}
+
+.ui-header, .ui-footer {
+	overflow: hidden;
 }
 		.pages h3{
 			margin:0;
