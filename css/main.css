@@ -238,3 +238,45 @@
 	-webkit-box-shadow: 0px 1px 0px 0px rgba(150, 150, 150, 0.6);
 }
 
+
+		#menu2{
+			width:165px;
+			height:100%;
+			display:block !important;
+			float:left;
+			}
+			#menu2 ul{
+				margin:0;padding:0;
+				width:inherit;
+				}
+				#menu2 ul li{
+					list-style-type:none;
+					margin:0px 0;
+					/*border-bottom:solid #6d6d6d 1px;*/
+					}
+					#menu2 ul li a:link, #menu2 ul li a:visited{
+						border-bottom:solid #333 1px;
+						color:#fff;
+						font-size:14px;
+						font-family:arial;
+						text-decoration:none;
+						width:165px;
+						display:block;
+						padding:10px 0px 10px 10px; 
+						text-shadow: 0px 1px 1px #000000;
+					}
+					#menu2 ul li a:hover, #menu2 ul li a:active{
+						background-color:#716f6f;
+					}
+					#menu2 ul li a:hover span.icon{
+						background-position:0 -40px !important;
+					}	
+					#menu2 li a span.icon{
+						float:right;
+						width:21px;
+						height:20px;
+						background: transparent url(../images/menuIconsSprite.png) 0 0 no-repeat;
+						position:relative;
+						right:20px;
+						top:-2px;
+					}

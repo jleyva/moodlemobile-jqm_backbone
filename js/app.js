@@ -4,24 +4,6 @@ $(document).bind("mobileinit", function(){
 
 
 $(function(){
-	var menuStatus;
-	
-	
-	// Show menu
-	$("a.showMenu").click(function(){
-		if(menuStatus != true){				
-		$(".ui-page-active").animate({
-			marginLeft: "165px",
-		  }, 300, function(){menuStatus = true});
-		  return false;
-		  } else {
-			$(".ui-page-active").animate({
-			marginLeft: "0px",
-		  }, 300, function(){menuStatus = false});
-			return false;
-		  }
-	});
-	
 	
 	$('#menu, .pages').live("swipeleft", function(){
 		if (menuStatus){	
