@@ -1,7 +1,7 @@
-$(function(){
+var menuStatus;
+var menu2Status;
 	
-	var menuStatus;
-	var menu2Status;
+$(function(){
 	
 	// Show menu
 	$("a.showMenu").click(function(){
