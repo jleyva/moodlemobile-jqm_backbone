@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "shortname": "Howto",
+        "fullname": "How to Moodler"
+    },
+    {
+        "id":2,
+        "shortname": "html5",
+        "fullname": "Dive into HTML5"
+    },
+    {
+        "id":3,
+        "shortname": "Demo",
+        "fullname": "Moodle features demo"
+    }
+]
